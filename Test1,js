@@ -1,0 +1,9 @@
+function GetResult()
+{
+    k=0;
+    if (q13.checked==true) k++;
+    if (!q21.checked && q22.checked && q23.checked && !q24.checked) k++;
+    if (q33.checked==true) k++;
+    btn.outerHTML="<b>Результат</b>"
+    result.innerText="Кількість правильних відповідей: "+k
+}
